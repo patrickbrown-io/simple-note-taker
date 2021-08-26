@@ -1,9 +1,10 @@
+//Set variables for elements
 let noteTitle;
 let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
-
+//if on the /notes endpoint, these elements are assigned to variables
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
   noteText = document.querySelector('.note-textarea');
